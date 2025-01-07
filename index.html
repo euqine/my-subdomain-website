@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SG EVENTS</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="Media/favicon.ico">
+</head>
+<body>
+    <header id="header">
+        <div class="header-content">
+            <img src="Media/logo2.png" alt="Company Logo" class="logo">
+        </div>
+    </header>
+    
+    <section id="hero" class="fade-in">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="Media/gallery1.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="Media/gallery8.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="Media/78.JPG" style="width:100%">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="hero-overlay"></div> <!-- Add this line -->
+        <div class="hero-content">
+            <button id="buy-tickets-button" class="cta-button">Buy Tickets</button>
+            <div class="next-event-info"></div>
+        </div>
+    </section>
+    
+    
+    
+    <section id="image-section" class="fade-in">
+        <div class="content-container">
+            <!-- Next Event Title -->
+            <div class="next-event">Next Event</div>
+    
+            <!-- New Countdown Text -->
+            <div class="flyer-container">
+                <img src="Media/flyer44.JPG" alt="Event Flyer" class="flyer-image">
+            </div>
+
+            <div class="event-button-container">
+                <a href="https://www.eventbrite.co.uk/e/sg-events-presents-la-premiere-tickets-1035219378027?utm_experiment=test_share_listing&aff=ebdsshios" class="event-button">Buy Tickets</a>
+            </div>
+    
+            <!-- Timer Section -->
+            <div class="timer" id="event-timer">
+                <div>
+                    <span id="days">00</span>
+                    <p>Days</p>
+                </div>
+                <div>
+                    <span id="hours">00</span>
+                    <p>Hours</p>
+                </div>
+                <div>
+                    <span id="minutes">00</span>
+                    <p>Minutes</p>
+                </div>
+                <div>
+                    <span id="seconds">00</span>
+                    <p>Seconds</p>
+                </div>
+            </div>
+    
+            <!-- Button -->
+            <div class="additional-images">
+                <a href="https://www.facebook.com/shutdownglobalevents" target="_blank" rel="noopener noreferrer">
+                    <img src="Media/facebook (1).png" alt="Facebook" class="event-image">
+                </a>
+                <a href="https://www.instagram.com/sgevents___/" target="_blank" rel="noopener noreferrer">
+                    <img src="Media/insta (1).png" alt="Instagram" class="event-image">
+                </a>
+                <a href="https://www.tiktok.com/@sgevents__?lang=en" target="_blank" rel="noopener noreferrer">
+                    <img src="Media/tiktok (1).png" alt="TikTok" class="event-image">
+                </a>
+            </div>
+        </div>
+    </section>
+        </div>
+    </section>
+    
+    
+    
+    <!-- Link to your JavaScript file -->
+    <script src="countdown.js" defer></script>
+    
+    <div id="video-section">
+        <h2>Watch Our Latest Event</h2>
+        <div class="video-wrapper">
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/7FiYgtfpKiQ?si=wGH7PPf_AGJrJhh6" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+    
+    
+
+    <section id="gallery-section" class="fade-in">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <img src="Media/gallery1.JPG" alt="Gallery Image 1" class="gallery-image">
+            <img src="Media/gallery2.jpg" alt="Gallery Image 2" class="gallery-image">
+            <img src="Media/gallery3.jpg" alt="Gallery Image 3" class="gallery-image">
+            <img src="Media/Gallery4.jpg" alt="Gallery Image 4" class="gallery-image">
+            <img src="Media/55.JPG" alt="Gallery Image 5" class="gallery-image">
+            <img src="Media/gallery6.jpg" alt="Gallery Image 6" class="gallery-image">
+            <img src="Media/gallery7.jpg" alt="Gallery Image 7" class="gallery-image">
+            <img src="Media/gallery8.JPG" alt="Gallery Image 8" class="gallery-image">
+            <img src="Media/galler9.JPG" alt="Gallery Image 9" class="gallery-image">
+            <img src="Media/78.JPG" alt="Gallery Image 10" class="gallery-image">
+            <img src="Media/galeery12.JPG" alt="Gallery Image 11" class="gallery-image">
+            <img src="Media/gallery13.JPG" alt="Gallery Image 12" class="gallery-image">
+        </div>
+    </section>
+
+    <section id="faq-section" class="fade-in">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>Can I reserve a VIP Table in advance?</h3>
+            <p>Yes, VIP Tables can be reserved in advance through our website or by contacting us via Instagram DMs. Booking a VIP Table guarantees entry for attendees and offers an elevated experience with dedicated service.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Are there any age restrictions?</h3>
+            <p>All attendees must be 18 years or older and must present valid identification upon entry.</p>
+        </div>
+        <div class="faq-item">
+            <h3>What music can I expect at SG events?</h3>
+            <p>SG events feature some of the UK's biggest DJs who play the latest in hip-hop, trap, R&B, bashment, afrobeats, and amapiano. Our aim is to provide an exclusive and unforgettable music experience.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Can I buy tickets at the door?</h3>
+            <p>Majority of our events are ticket-only to keep the exclusivity; however, we may put a certain amount of tickets at the door depending on the event. This will be stated on our event flyer.</p>
+        </div>
+        <div class="faq-item">
+            <h3>How can I stay updated about upcoming SG events?</h3>
+            <p>To stay in the loop about our upcoming events, follow us on our social media platforms.</p>
+            <a href="https://www.instagram.com/sgevents___/" target="_blank" rel="noopener noreferrer">
+                <img src="Media/insta (1).png" alt="Instagram" class="event-image">
+            </a>
+            <a href="https://www.tiktok.com/@sgevents__?lang=en" target="_blank" rel="noopener noreferrer">
+                <img src="Media/tiktok (1).png" alt="TikTok" class="event-image">
+            </a>
+        </div>
+    </section>
+
+    <footer id="footer" class="fade-in">
+        <p>© Copyright SG EVENTS Designed By <a href="https://www.instagram.com/dkwebworkss/" >DkWebWorks</a>   </p>
+    </footer>   
+
+    <script>
+        // Countdown function
+       
+    // Countdown function
+// Countdown function
+function updateCountdown() {
+    const targetDate = new Date('November 2, 2024 00:00:00'); // Updated to November 2, 2024
+    const now = new Date();
+    const timeDifference = targetDate - now;
+
+    if (timeDifference <= 0) {
+        document.getElementById('days').textContent = '00';
+        document.getElementById('hours').textContent = '00';
+        document.getElementById('minutes').textContent = '00';
+        document.getElementById('seconds').textContent = '00';
+        clearInterval(timerInterval);
+        return;
+    }
+
+    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+    document.getElementById('days').textContent = days.toString().padStart(2, '0');
+    document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+    document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+    document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+}
+
+const timerInterval = setInterval(updateCountdown, 1000);
+updateCountdown();
+
+
+
+        // Redirect to Eventbrite event page
+        document.getElementById('buy-tickets-button').addEventListener('click', () => {
+            window.open('https://www.eventbrite.com/e/943731485277', '_blank'); // Replace with your actual Eventbrite event URL
+        });
+
+        document.getElementById('buy-now-button').addEventListener('click', () => {
+            window.open('https://www.eventbrite.com/e/943731485277', '_blank'); // Replace with your actual Eventbrite event URL
+        });
+
+        // Intersection Observer for fade-in effect
+        const fadeInElements = document.querySelectorAll('.fade-in');
+        const observerOptions = {
+            root: null,
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        fadeInElements.forEach(element => observer.observe(element));
+    </script>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+        }
+        
+        function plusSlides(n) {
+            slideIndex += n;
+            if (slideIndex < 1) {slideIndex = slides.length}
+            if (slideIndex > slides.length) {slideIndex = 1}
+            showSlides();
+        }
+        </script>
+        
+</body>
+</html>
